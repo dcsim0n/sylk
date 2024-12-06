@@ -22,7 +22,7 @@ keywords = [
     "protobuf",
     "framework"
 ]
-dependencies = ["pluggy>=0.3,<1.0","inquirer","prettytable","protobuf<=4.23.2","grpcio==1.54.2","grpcio-tools==1.54.2"]
+dependencies = ["pluggy>=0.3,<1.0","inquirer","prettytable","protobuf>=4.23.2","grpcio>=1.54.2","grpcio-tools>=1.54.2"]
 requires-python = ">=3.7"
 
 [project.optional-dependencies]
