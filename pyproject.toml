@@ -67,3 +67,8 @@ strict = true
 
 [tool.setuptools.packages.find]
 exclude = ["docker","docs"]  # alternatively: `exclude = ["additional*"]`
+
+[dependency-groups]
+dev = [
+    "bumpver>=2024.1130",
+]
